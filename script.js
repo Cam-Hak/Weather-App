@@ -1,4 +1,4 @@
-// API Key for
+// API Key for weather api
 const APIKEY = "7eaf5d89dc324c28ad7215351242006";
 
 // selecting HTML elements
