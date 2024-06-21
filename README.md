@@ -1,10 +1,10 @@
 # _Weather App_
 
-***In this project I utilized:***  
+**_In this project I utilized:_**
+
 1. A real-time [weather API](https://www.weatherapi.com/) to gather data
 2. [Papa Parsing](https://www.papaparse.com/) to parse through the csv file
 3. SVG (Scalable Vector Graphics) file format to display the weather type
-
 
 ## _Papa Parse use case_
 
@@ -24,8 +24,10 @@ const readCSV = function (condition) {
       });
     });
 };
-
 ```
 
+- Imported through cloudflare cdn
 
-
+```js
+<script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+```
